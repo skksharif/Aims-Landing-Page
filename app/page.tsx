@@ -1,7 +1,7 @@
-import Image from "next/image"
-import Link from "next/link"
-import CounterAnimation from "@/components/counter-animation"
-import { ArrowRight, Heart, Shield, Clock, Award } from "lucide-react"
+import Image from "next/image";
+import Link from "next/link";
+import CounterAnimation from "@/components/counter-animation";
+import { ArrowRight, Heart, Shield, Clock, Award } from "lucide-react";
 
 export default function Home() {
   return (
@@ -10,22 +10,27 @@ export default function Home() {
       <section className="relative h-screen flex items-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="https://content.jdmagicbox.com/comp/guntur/u9/9999px863.x863.190617105322.b8u9/catalogue/aiims-hospital-government-mangalagiri-guntur-public-hospitals-grFy68135Z.jpg"
             alt="NICU at AIMS Hospitals"
             fill
             priority
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-blue-600/50"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-blue-900/70 to-blue-50/50"></div>
         </div>
 
         <div className="container-custom relative z-10 text-white">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Caring for Tomorrow's Future</h1>
-            <h2 className="text-2xl md:text-3xl font-medium mb-6">Expert Pediatric & Neonatal Care</h2>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+              Caring for Tomorrow's Future
+            </h1>
+            <h2 className="text-2xl md:text-3xl font-medium mb-6">
+              Expert Pediatric & Neonatal Care
+            </h2>
             <p className="text-lg md:text-xl mb-8 text-gray-100">
-              At AIMS Hospitals, we provide specialized care for children and newborns with state-of-the-art facilities
-              and experienced medical professionals.
+              At AIMS Hospitals, we provide specialized care for children and
+              newborns with state-of-the-art facilities and experienced medical
+              professionals.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/contact#appointment" className="btn-primary">
@@ -48,15 +53,21 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="card-neumorphic text-center">
               <CounterAnimation end={10000} suffix="+" />
-              <h3 className="text-xl font-medium mt-4 text-gray-700">NICU Admissions</h3>
+              <h3 className="text-xl font-medium mt-4 text-gray-700">
+                NICU Admissions
+              </h3>
             </div>
             <div className="card-neumorphic text-center">
               <CounterAnimation end={99} suffix="%" />
-              <h3 className="text-xl font-medium mt-4 text-gray-700">Survival Rate</h3>
+              <h3 className="text-xl font-medium mt-4 text-gray-700">
+                Survival Rate
+              </h3>
             </div>
             <div className="card-neumorphic text-center">
               <CounterAnimation end={6000} suffix="+" />
-              <h3 className="text-xl font-medium mt-4 text-gray-700">PICU Admissions</h3>
+              <h3 className="text-xl font-medium mt-4 text-gray-700">
+                PICU Admissions
+              </h3>
             </div>
           </div>
         </div>
@@ -74,23 +85,29 @@ export default function Home() {
                 Leading Pediatric & Neonatal Care in Andhra Pradesh
               </h2>
               <p className="text-gray-700 mb-6">
-                AIMS Hospitals (Anurag Institute of Medical Sciences for Child Health) is dedicated to providing
-                exceptional healthcare for children and newborns. Our state-of-the-art facilities and team of
-                experienced specialists ensure the highest quality of care.
+                AIMS Hospitals (Anurag Institute of Medical Sciences for Child
+                Health) is dedicated to providing exceptional healthcare for
+                children and newborns. Our state-of-the-art facilities and team
+                of experienced specialists ensure the highest quality of care.
               </p>
               <p className="text-gray-700 mb-6">
-                Under the leadership of Dr. V. Nagamalleswara Rao, we have established ourselves as a center of
-                excellence in pediatric and neonatal care, with a focus on advanced treatments and compassionate patient
-                care.
+                Under the leadership of Dr. V. Nagamalleswara Rao, we have
+                established ourselves as a center of excellence in pediatric and
+                neonatal care, with a focus on advanced treatments and
+                compassionate patient care.
               </p>
-              <Link href="/about" className="inline-flex items-center text-primary-blue font-medium hover:underline">
-                Learn more about our hospital <ArrowRight className="ml-2" size={18} />
+              <Link
+                href="/about"
+                className="inline-flex items-center text-primary-blue font-medium hover:underline"
+              >
+                Learn more about our hospital{" "}
+                <ArrowRight className="ml-2" size={18} />
               </Link>
             </div>
             <div className="relative">
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/ap.png"
                   alt="AIMS Hospital Building"
                   width={800}
                   height={600}
@@ -98,8 +115,12 @@ export default function Home() {
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-white rounded-lg shadow-lg p-4 w-32 h-32 flex flex-col items-center justify-center">
-                <span className="text-3xl font-bold text-primary-blue">25+</span>
-                <span className="text-sm text-gray-600 text-center">Years of Excellence</span>
+                <span className="text-3xl font-bold text-primary-blue">
+                  25+
+                </span>
+                <span className="text-sm text-gray-600 text-center">
+                  Years of Excellence
+                </span>
               </div>
             </div>
           </div>
@@ -113,10 +134,12 @@ export default function Home() {
             <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-primary-blue mb-4">
               Our Services
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Comprehensive Pediatric Care</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Comprehensive Pediatric Care
+            </h2>
             <p className="text-gray-700 max-w-3xl mx-auto">
-              We offer a wide range of specialized services to ensure the health and well-being of your children from
-              birth through adolescence.
+              We offer a wide range of specialized services to ensure the health
+              and well-being of your children from birth through adolescence.
             </p>
           </div>
 
@@ -127,8 +150,9 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-3">NICU</h3>
               <p className="text-gray-700">
-                Our Neonatal Intensive Care Unit provides specialized care for premature and critically ill newborns
-                with advanced medical equipment.
+                Our Neonatal Intensive Care Unit provides specialized care for
+                premature and critically ill newborns with advanced medical
+                equipment.
               </p>
               <Link
                 href="/services#nicu"
@@ -144,8 +168,9 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-3">PICU</h3>
               <p className="text-gray-700">
-                Our Pediatric Intensive Care Unit offers round-the-clock monitoring and treatment for critically ill
-                children requiring intensive care.
+                Our Pediatric Intensive Care Unit offers round-the-clock
+                monitoring and treatment for critically ill children requiring
+                intensive care.
               </p>
               <Link
                 href="/services#picu"
@@ -161,8 +186,8 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-3">Pediatric Surgeries</h3>
               <p className="text-gray-700">
-                Our skilled surgeons perform a wide range of pediatric surgeries with precision and care, ensuring the
-                best outcomes.
+                Our skilled surgeons perform a wide range of pediatric surgeries
+                with precision and care, ensuring the best outcomes.
               </p>
               <Link
                 href="/services#pediatric-surgeries"
@@ -178,8 +203,8 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-3">Emergency Care</h3>
               <p className="text-gray-700">
-                Our emergency department is equipped to handle pediatric emergencies 24/7 with specialized staff and
-                equipment.
+                Our emergency department is equipped to handle pediatric
+                emergencies 24/7 with specialized staff and equipment.
               </p>
               <Link
                 href="/services#emergency-care"
@@ -200,15 +225,19 @@ export default function Home() {
               <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-primary-blue mb-4">
                 Meet the Director
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Dr. V. Nagamalleswara Rao</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                Dr. V. Nagamalleswara Rao
+              </h2>
               <p className="text-gray-700 mb-4">
-                Dr. V. Nagamalleswara Rao is a distinguished pediatrician with over 25 years of experience in neonatal
-                and pediatric intensive care. His vision and leadership have established AIMS Hospitals as a center of
-                excellence in child healthcare.
+                Dr. V. Nagamalleswara Rao is a distinguished pediatrician with
+                over 25 years of experience in neonatal and pediatric intensive
+                care. His vision and leadership have established AIMS Hospitals
+                as a center of excellence in child healthcare.
               </p>
               <p className="text-gray-700 mb-6">
-                Under his guidance, AIMS Hospitals has achieved remarkable success rates in treating critically ill
-                newborns and children, implementing the latest medical technologies and protocols.
+                Under his guidance, AIMS Hospitals has achieved remarkable
+                success rates in treating critically ill newborns and children,
+                implementing the latest medical technologies and protocols.
               </p>
               <Link href="/about#director" className="btn-primary">
                 Read Full Profile
@@ -233,11 +262,15 @@ export default function Home() {
       <section className="section-padding bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <div className="inline-block rounded-lg bg-white/20 px-3 py-1 text-sm mb-4">Our Impact</div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Making a Difference in Children's Lives</h2>
+            <div className="inline-block rounded-lg bg-white/20 px-3 py-1 text-sm mb-4">
+              Our Impact
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Making a Difference in Children's Lives
+            </h2>
             <p className="max-w-3xl mx-auto">
-              Our commitment to excellence in pediatric and neonatal care has resulted in impressive outcomes and
-              success rates.
+              Our commitment to excellence in pediatric and neonatal care has
+              resulted in impressive outcomes and success rates.
             </p>
           </div>
 
@@ -245,17 +278,25 @@ export default function Home() {
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
               <h3 className="text-2xl font-bold mb-2">NICU Admissions</h3>
               <div className="text-5xl font-bold mb-4">10,000+</div>
-              <p>Newborns have received specialized care in our NICU facilities.</p>
+              <p>
+                Newborns have received specialized care in our NICU facilities.
+              </p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
               <h3 className="text-2xl font-bold mb-2">Survival Rate</h3>
               <div className="text-5xl font-bold mb-4">99%</div>
-              <p>Our NICU has achieved an exceptional survival rate for all admissions.</p>
+              <p>
+                Our NICU has achieved an exceptional survival rate for all
+                admissions.
+              </p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
               <h3 className="text-2xl font-bold mb-2">PICU Admissions</h3>
               <div className="text-5xl font-bold mb-4">6,000+</div>
-              <p>Children have been successfully treated in our Pediatric Intensive Care Unit.</p>
+              <p>
+                Children have been successfully treated in our Pediatric
+                Intensive Care Unit.
+              </p>
             </div>
           </div>
 
@@ -277,9 +318,12 @@ export default function Home() {
             <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-primary-blue mb-4">
               Testimonials
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">What Parents Say About Us</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              What Parents Say About Us
+            </h2>
             <p className="text-gray-700 max-w-3xl mx-auto">
-              Read about the experiences of families who have entrusted their children's care to AIMS Hospitals.
+              Read about the experiences of families who have entrusted their
+              children's care to AIMS Hospitals.
             </p>
           </div>
 
@@ -301,9 +345,10 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-700">
-                "When our premature baby needed specialized care, AIMS Hospital's NICU team was exceptional. Their
-                expertise and compassion gave us hope during a difficult time. Today, our son is healthy and thriving
-                thanks to their outstanding care."
+                "When our premature baby needed specialized care, AIMS
+                Hospital's NICU team was exceptional. Their expertise and
+                compassion gave us hope during a difficult time. Today, our son
+                is healthy and thriving thanks to their outstanding care."
               </p>
             </div>
 
@@ -324,9 +369,10 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-700">
-                "Dr. Rao and his team at AIMS Hospitals provided exceptional care when our daughter needed emergency
-                surgery. Their quick response and skilled treatment saved her life. We are forever grateful for their
-                expertise and dedication."
+                "Dr. Rao and his team at AIMS Hospitals provided exceptional
+                care when our daughter needed emergency surgery. Their quick
+                response and skilled treatment saved her life. We are forever
+                grateful for their expertise and dedication."
               </p>
             </div>
 
@@ -347,9 +393,10 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-700">
-                "Having twins born prematurely was overwhelming, but the NICU staff at AIMS Hospitals were amazing. They
-                not only provided excellent medical care but also emotional support. Both our babies are now healthy and
-                developing well."
+                "Having twins born prematurely was overwhelming, but the NICU
+                staff at AIMS Hospitals were amazing. They not only provided
+                excellent medical care but also emotional support. Both our
+                babies are now healthy and developing well."
               </p>
             </div>
           </div>
@@ -360,9 +407,12 @@ export default function Home() {
       <section className="section-padding bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Your Child's Health is Our Priority</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              Your Child's Health is Our Priority
+            </h2>
             <p className="text-xl mb-8">
-              Schedule an appointment with our pediatric specialists today and give your child the best care possible.
+              Schedule an appointment with our pediatric specialists today and
+              give your child the best care possible.
             </p>
             <Link
               href="/contact#appointment"
@@ -374,6 +424,5 @@ export default function Home() {
         </div>
       </section>
     </>
-  )
+  );
 }
-

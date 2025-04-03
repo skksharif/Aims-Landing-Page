@@ -24,7 +24,7 @@ export default function Header() {
       <div className="container-custom flex justify-between items-center">
         <Link href="/" className="flex items-center">
           <Image
-            src="/placeholder.svg?height=50&width=180"
+            src="/logo.png"
             alt="AIMS Hospitals Logo"
             width={180}
             height={50}
@@ -34,22 +34,22 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <Link href="/" className="font-medium text-gray-800 hover:text-primary-blue transition-colors">
+          <Link href="/" className="font-small text-gray-800 hover:text-primary-blue transition-colors">
             Home
           </Link>
-          <Link href="/about" className="font-medium text-gray-800 hover:text-primary-blue transition-colors">
+          <Link href="/about" className="font-small text-gray-800 hover:text-primary-blue transition-colors">
             About Us
           </Link>
-          <Link href="/services" className="font-medium text-gray-800 hover:text-primary-blue transition-colors">
+          <Link href="/services" className="font-small text-gray-800 hover:text-primary-blue transition-colors">
             Services
           </Link>
-          <Link href="/statistics" className="font-medium text-gray-800 hover:text-primary-blue transition-colors">
+          <Link href="/statistics" className="font-small text-gray-800 hover:text-primary-blue transition-colors">
             Statistics
           </Link>
-          <Link href="/team" className="font-medium text-gray-800 hover:text-primary-blue transition-colors">
+          <Link href="/team" className="font-small text-gray-800 hover:text-primary-blue transition-colors">
             Our Team
           </Link>
-          <Link href="/contact" className="font-medium text-gray-800 hover:text-primary-blue transition-colors">
+          <Link href="/contact" className="font-small text-gray-800 hover:text-primary-blue transition-colors">
             Contact
           </Link>
           <Link href="/contact#appointment" className="btn-primary">
