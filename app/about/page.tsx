@@ -118,7 +118,7 @@ export default function AboutPage() {
             <div className="order-1 md:order-2">
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="https://www.shutterstock.com/image-photo/healthcare-medical-staff-concept-portrait-600nw-2281024823.jpg"
                   alt="Dr. V. Nagamalleswara Rao"
                   width={600}
                   height={600}
